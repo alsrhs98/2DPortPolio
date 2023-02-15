@@ -1,4 +1,5 @@
-#DirectX11 와 C++로 2D게임을 만들어 보았습니다.
+안녕하세요! 
+#DirectX11 와 C++로 2D게임 엔터 더 건전을 모작했습니다.
 
 #2DFrameWork 폴더는 2D에서 사용되는 Camera , Sound, Object 등의 기본적인 요소들이 들어가 있습니다.
 
