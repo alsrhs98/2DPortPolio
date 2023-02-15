@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Character.h">
+      <Filter>GamObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GamObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>GamObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene1.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Magnum.h">
+      <Filter>Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Rifle.h">
+      <Filter>Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="eGun.h">
+      <Filter>Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene2.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>GamObject</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MapScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Blank.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Character.cpp">
+      <Filter>GamObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GamObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>GamObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene1.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Magnum.cpp">
+      <Filter>Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Rifle.cpp">
+      <Filter>Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="eGun.cpp">
+      <Filter>Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene2.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>GamObject</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MapScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Blank.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{7eeb8519-d2ec-4e95-9879-46f252c8e958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamObject">
+      <UniqueIdentifier>{d419b750-f03e-46e2-8473-8ab91888a4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gun">
+      <UniqueIdentifier>{15a7f163-0bce-45ff-8109-987e0fb1ac72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{72c49d32-de76-4834-b5e3-2d6b241fe67b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
